@@ -1,0 +1,137 @@
+body {
+  margin: 50px;
+}
+
+#calculator {
+  background-color: gray;
+  display: inline-block;
+  padding: 5px;
+}
+
+#calc-display {
+  background-color: black;
+  height: 40px;
+  margin: 5px;
+  max-width: 200px;
+  overflow: hidden;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+#calc-display-content {
+  color: white;
+  font-size: 20px;
+  line-height: 40px;
+  vertical-align: middle;
+  text-align: right;
+}
+#calc-buttons {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 50px 50px 50px 50px;
+  margin: 5px;
+}
+
+.calc-button {
+  background-color: black;
+  color: white;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.calc-button:hover {
+  cursor: pointer;
+}
+.calc-button:active {
+  background-color: #4c4d4f;
+}
+
+#button-zero {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+#button-one {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+#button-two {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+#button-three {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+#button-four {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+#button-five {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+#button-six {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+#button-seven {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+#button-eight {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+#button-nine {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+#button-clear {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+#button-divide {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+#button-multiply {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+#button-subtract {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+#button-add-equals {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
